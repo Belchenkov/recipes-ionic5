@@ -8,7 +8,7 @@ import { Recipe } from './recipe.model';
 export class RecipesService {
   recipes: Recipe[] = [
     {
-      id: 'r1',
+      id: '1',
       title: 'Steak',
       imageUrl: 'https://i2.wp.com/www.foodrepublic.com/wp-content/uploads/2012/05/testkitchen_argentinesteak.jpg?resize=1280%2C%20560&ssl=1',
       ingredients: [
@@ -18,7 +18,7 @@ export class RecipesService {
       ]
     },
     {
-      id: 'r2',
+      id: '2',
       title: 'Spaghetti',
       imageUrl: 'https://www.kitchensanctuary.com/wp-content/uploads/2019/09/Spaghetti-Bolognese-square-FS-0204.jpg',
       ingredients: [
