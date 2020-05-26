@@ -7,12 +7,14 @@ import { Recipe } from '../recipe.model';
   templateUrl: './recipe-item.component.html',
   styleUrls: ['./recipe-item.component.scss'],
 })
+
 export class RecipeItemComponent implements OnInit {
   @Input() recipeItem: Recipe;
 
   constructor() { }
 
   ngOnInit() {
+    console.log('Ionic Works - My Second App Works')
   }
 
 }
